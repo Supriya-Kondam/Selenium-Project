@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Failed suite [Suite]]">
+  <test parallel="none" name="Test(failed)(failed)">
+    <classes>
+      <class name="Classes.writedata">
+        <methods>
+          <include name="setextent"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Classes.writedata -->
+      <class name="Classes.ActionsMouseOver">
+        <methods>
+          <include name="setextent"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- Classes.ActionsMouseOver -->
+      <class name="Classes.SwitchWindow">
+        <methods>
+          <include name="Mouseover"/>
+          <include name="teardown"/>
+          <include name="setextent"/>
+        </methods>
+      </class> <!-- Classes.SwitchWindow -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

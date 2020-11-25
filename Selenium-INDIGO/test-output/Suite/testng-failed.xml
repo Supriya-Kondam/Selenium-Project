@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="Classes.FramesObjects">
+        <methods>
+          <include name="setextent"/>
+          <include name="teardown"/>
+          <include name="Frames"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Classes.FramesObjects -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

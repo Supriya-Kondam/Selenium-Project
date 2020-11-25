@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite-FirstRound]">
+  <test parallel="none" name="Test-firstround(failed)">
+    <classes>
+      <class name="Classes.SwitchWindow">
+        <methods>
+          <include name="Switchbtw"/>
+          <include name="Mouseover"/>
+          <include name="teardown"/>
+          <include name="setextent"/>
+        </methods>
+      </class> <!-- Classes.SwitchWindow -->
+    </classes>
+  </test> <!-- Test-firstround(failed) -->
+</suite> <!-- Failed suite [Suite-FirstRound] -->
