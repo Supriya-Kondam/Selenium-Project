@@ -36,7 +36,9 @@ public class ActionsMouseOver extends BaseClass {
 	
 	act.moveToElement(pay).moveToElement(dbtcard).click().build().perform();
 	test.pass("cursor moment done");
+	System.out.println("cursor moved succesfully");
 	driver.close();
+	
 	}
 
 
